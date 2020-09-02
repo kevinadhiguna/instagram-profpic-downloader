@@ -16,4 +16,4 @@ Note: You can also run it with python3. In case of that, just replace `python` w
 5. The profile picture is downloaded in the folder you cloned this tool!
 
 ### Notes :
-I am not responsible for any misuse of this tool.
+<b><h3>I am not responsible for any misuse of this tool.</h3></b>
