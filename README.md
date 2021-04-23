@@ -17,3 +17,5 @@ Note: You can also run it with python3. In case of that, just replace `python` w
 
 ### Notes :
 <b><h3>I am not responsible for any misuse of this tool.</h3></b>
+
+[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/instagram-profpic-downloader)](https://github.com/kevinadhiguna)
