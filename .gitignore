@@ -212,10 +212,15 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-### Pictures ###
+### Project ###
 *.jpg
 *.jpeg
 *.png
+
+id
+*.json
+*.json.xz
+*.mp4
 
 ### Windows ###
 # Windows thumbnail cache files
