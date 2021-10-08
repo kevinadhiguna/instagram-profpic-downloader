@@ -15,6 +15,6 @@ print("GitHub Repo : https://github.com/kevinadhiguna/instagram-profpic-download
 try:
     instagram_account = input("What is the account name ? : ")
     instagram.download_profile(instagram_account, profile_pic_only=True)
-    print("Downloaded successfully !")
+    print("\nDownloaded successfully, thank you for using this tool !")
 except:
-    print("An error happened... try again later")
+    print("\nSomething went wrong or the account might not exist. Please try again later...")
