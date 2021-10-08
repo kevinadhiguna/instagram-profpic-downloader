@@ -19,6 +19,7 @@ This works on both `public` and `private` Instagram account.
 ### To-do list :
 - [ ] docs: Add instructions on how to run using docker and docker-compose
 - [ ] build(docker) : Fix the docker-compose issue
+- [ ] build(ci): Modify GitHub Workflows to build and push docker image to DockerHub
 
 Pull Requests are welcome 🙏
 
