@@ -1,3 +1,9 @@
+######################################
+#  Please use this at your own risk  #
+######################################
+
+#  *This one is deprecated, use insta.py instead
+
 import requests
 from bs4 import BeautifulSoup
 
