@@ -1,7 +1,9 @@
 # Instagram Profile Picture Downloader
 
 Wants to download a profile picture in Instagram? Then this tool might be able to help you!
-<br><br>
+
+<img src="https://user-images.githubusercontent.com/43397636/136511181-8220de7e-9eae-41fe-8d9c-0badf8f1dd20.png" width="70%" />
+
 This works on both `public` and `private` Instagram account.
 
 ## How to Run :
