@@ -1,0 +1,24 @@
+name: Continous Integration
+
+on:
+  push:
+    branches: ["staging"]
+
+jobs:
+  initial:
+    runs-on: ubuntu-latest
+    steps:
+      # Prompt the event name and the operating system being used
+      - run: echo "🎉 This job is automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This job is running on a ${{ runner.os }} server provided by GitHub."
+
+      - name: Checkout repository code
+        # Bootstrapped by https://github.com/actions/checkout
+        uses: actions/checkout@v2
+        run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner !"
+
+      - name: List files in the repository
+        run: ls ${{ github.workspace }}
+        
+      - name: Current Job Status
+        run: echo "🍏 This job's status is ${{ job.status }}."
