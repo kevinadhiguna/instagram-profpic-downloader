@@ -1,0 +1,10 @@
+version: '3.8'
+
+services: 
+  insta:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: instagram_profpic_downloader
+    # This must be present and set to true, otherwise the app can not receive user input (instagram username)
+    stdin_open: true
