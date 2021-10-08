@@ -1,3 +1,4 @@
 instaloader==4.8.1
 requests==2.26.0
+pyfiglet==0.8.post1
 beautifulsoup4==4.10.0
