@@ -14,6 +14,12 @@ This works on both `public` and `private` Instagram account.
 4. Put the username that you want to download the profile picture of.
 5. The profile picture is downloaded in the folder you cloned this tool!
 
+### To-do list :
+- [ ] docs: Add instructions on how to run using docker and docker-compose
+- [ ] build(docker) : Fix the docker-compose issue
+
+Pull Requests are welcome 🙏
+
 ### Notes :
 - **I am not responsible for any misuse of this tool**.
 - `download.py` is deprecated. Please use `insta.py` instead.
