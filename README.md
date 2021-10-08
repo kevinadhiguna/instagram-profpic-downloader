@@ -10,12 +10,16 @@ This works on both `public` and `private` Instagram account.
 2. Install dependencies :<br />
 `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
 3. Run this program :<br />
-`python download.py`<br/>
-Note: You can also run it with python3. In case of that, just replace `python` with `python3`.
+`python insta.py` or `python3 insta.py`
 4. Put the username that you want to download the profile picture of.
 5. The profile picture is downloaded in the folder you cloned this tool!
 
 ### Notes :
-<b><h3>I am not responsible for any misuse of this tool.</h3></b>
+- **I am not responsible for any misuse of this tool**.
+- `download.py` is deprecated. Please use `insta.py` instead.
+
+Thanks for visiting, have a nice day !
+
+<br/>
 
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/instagram-profpic-downloader)](https://github.com/kevinadhiguna)
