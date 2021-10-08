@@ -5,6 +5,7 @@ on:
     branches: ["staging"]
 
 jobs:
+
   initial:
     runs-on: ubuntu-latest
     steps:
@@ -22,3 +23,20 @@ jobs:
         
       - name: Current Job Status
         run: echo "🍏 This job's status is ${{ job.status }}."
+
+  build_and_push:
+    needs: initial
+    runs-on: ubuntu-latest
+    steps:
+      - name: Login to DockerHub
+        uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+      
+      - name: Build and Push Docker Image to DockerHub
+        uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+        with:
+          context: .
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/insta-profpic-downloader:latest
