@@ -6,12 +6,16 @@ Wants to download a profile picture in Instagram? Then this tool might be able t
 
 This works on both `public` and `private` Instagram account.
 
+<br/>
+
 ## Before running this app (Prerequisites)
 
 1. Install [python 3](https://www.python.org/downloads/).
 2. Get [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed in your machine, **only** if you would like to run the app using them.
 
 ⚠️ However, currently I do not recommend running this app using docker and docker-compose.
+
+<br />
 
 ## How to Run :
 1. Clone this repository :<br />
@@ -23,12 +27,16 @@ This works on both `public` and `private` Instagram account.
 4. Put the username that you want to download the profile picture of.
 5. The profile picture is downloaded in the folder you cloned this tool!
 
+<br />
+
 ### To-do list :
 - [ ] docs: Add instructions on how to run using docker and docker-compose
 - [ ] build(docker) : Fix the docker-compose issue
 - [ ] build(ci): Modify GitHub Workflows to build and push docker image to DockerHub
 
 Pull Requests are welcome 🙏
+
+<br />
 
 ### Notes :
 - **I am not responsible for any misuse of this tool**.
