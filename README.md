@@ -6,6 +6,13 @@ Wants to download a profile picture in Instagram? Then this tool might be able t
 
 This works on both `public` and `private` Instagram account.
 
+## Before running this app (Prerequisites)
+
+1. Install [python 3](https://www.python.org/downloads/).
+2. Get [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed in your machine, **only** if you would like to run the app using them.
+
+⚠️ However, currently I do not recommend running this app using docker and docker-compose.
+
 ## How to Run :
 1. Clone this repository :<br />
 `git clone https://github.com/kevinadhiguna/insta-profpic-downloader.git`
