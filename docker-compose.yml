@@ -1,5 +1,5 @@
 ## Note ##
-# Instead of running it using `docker-compose up`, please execute it with `docker-compose insta` 
+# Instead of running it using `docker-compose up`, please execute it with `docker-compose run insta` 
 #  whereas 'insta' is the service name in docker-compose.yml.
 #  Reason : `docker-compose up` is not interactive (https://github.com/docker/compose/issues/3081#issuecomment-193428350).
 ##########
