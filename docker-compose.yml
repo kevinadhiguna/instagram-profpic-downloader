@@ -1,8 +1,10 @@
-## Note ##
-# Instead of running it using `docker-compose up`, please execute it with `docker-compose run insta` 
-#  whereas 'insta' is the service name in docker-compose.yml.
+## -- Note -- ##
+# Instead of running it using `docker-compose up`, please execute it with :
+#  $ docker-compose build
+#  $ docker-compose run insta
+
+#  Here you first build the docker image from the Dockerfile then run a service named 'insta' in docker-compose.yml.
 #  Reason : `docker-compose up` is not interactive (https://github.com/docker/compose/issues/3081#issuecomment-193428350).
-##########
 
 version: '3.8'
 
