@@ -1,10 +1,35 @@
-# Instagram Profile Picture Downloader
+<br />
+<div align="center">
+  <a href="https://github.com/kevinadhiguna/instagram-profpic-downloader">
+    <img src="https://s9.gifyu.com/images/k5654jh64k5.png" alt="Instagram Profile Picture downloader">
+    <!-- size 150x150 px -->
+    <!-- <img src="https://s9.gifyu.com/images/ef5ydsladawdlkndwa.png" alt="Instagram Profile Picture downloader"> -->
+  </a>
 
-Want to download a profile picture in Instagram? Then this tool might be able to help you!
+  <h3 align="center">Instagram Profile Picture Downloader</h3>
 
-<img src="https://user-images.githubusercontent.com/43397636/136511181-8220de7e-9eae-41fe-8d9c-0badf8f1dd20.png" width="70%" />
+  <p align="center">
+    Want to download a profile picture in Instagram? Then this tool might be able to help you!
+    <br />
+    <br />
+    <a href="https://github.com/kevinadhiguna/instagram-profpic-downloader"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/kevinadhiguna/instagram-profpic-downloader/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kevinadhiguna/instagram-profpic-downloader/issues">Request Feature</a>
+  </p>
+</div>
 
-This works on both `public` and `private` Instagram accounts.
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/43397636/136511181-8220de7e-9eae-41fe-8d9c-0badf8f1dd20.png" width="70%" />
+</div>
+
+<br />
+
+## 🧐 About this project
+
+This is a tool powered by Python to download an Instagram account's profile picture. This works on both `public` and `private` Instagram accounts.
 
 <br/>
 
