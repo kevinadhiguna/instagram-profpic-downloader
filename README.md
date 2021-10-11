@@ -16,16 +16,66 @@ This works on both `public` and `private` Instagram account.
 ⚠️ However, currently I do not recommend running this app using docker and docker-compose.
 
 <br />
+<hr />
 
 ## How to run using Python :
 1. Clone this repository :<br />
-`git clone https://github.com/kevinadhiguna/insta-profpic-downloader.git`
+```bash
+git clone https://github.com/kevinadhiguna/insta-profpic-downloader.git
+```
 
 2. Install dependencies :<br />
-`pip install -r requirements.txt` or `pip3 install -r requirements.txt`
+```bash
+pip3 install -r requirements.txt
+```
+or
+```bash
+pip install -r requirements.txt
+```
 
 3. Run this program :<br />
-`python insta.py` or `python3 insta.py`
+```bash
+python3 insta.py
+```
+or
+```bash
+python insta.py
+```
+
+4. Put the username that you want to download the profile picture of.
+
+5. The profile picture is downloaded in the folder you cloned this tool!
+
+<br />
+<hr />
+
+## How to run using Docker :
+1. Clone this repository :<br />
+```bash
+git clone https://github.com/kevinadhiguna/insta-profpic-downloader.git
+```
+
+2. Build the docker image of this app :<br />
+```bash
+docker build -t <image-name>:<tag> .
+```
+
+Replace the `<image-name>` and `<tag>` with whatever you want.
+<br />
+Let's say you want to name it `insta-profpic` and apply `latest` as the tag. In this case you might run :
+```bash
+docker build -t insta-profpic:latest .
+```
+
+3. Run the docker image :<br />
+```bash
+docker run -it -v "$(pwd):/app" <image-name>:<tag>
+```
+
+Just a quick example : if you name it `insta-profpic` and gave `latest` as the tag, then you should run :
+```bash
+docker run -it -v "$(pwd):/app" insta-profpic:latest
+```
 
 4. Put the username that you want to download the profile picture of.
 
