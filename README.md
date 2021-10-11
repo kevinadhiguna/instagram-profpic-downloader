@@ -82,6 +82,29 @@ docker run -it -v "$(pwd):/app" insta-profpic:latest
 5. The profile picture is downloaded in the folder you cloned this tool!
 
 <br />
+<hr />
+
+## How to run using docker-compose :
+1. Clone this repository :<br />
+```bash
+git clone https://github.com/kevinadhiguna/insta-profpic-downloader.git
+```
+
+2. Build the docker image of this app :<br />
+```bash
+docker-compose build
+```
+
+3. Run a service :<br />
+```bash
+docker-compose run insta
+```
+
+4. Put the username that you want to download the profile picture of.
+
+5. The profile picture is downloaded in the folder you cloned this tool!
+
+<br />
 
 ### To-do list :
 - [ ] docs: Add instructions on how to run using docker and docker-compose
