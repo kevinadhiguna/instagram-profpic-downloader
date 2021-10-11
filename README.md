@@ -8,7 +8,7 @@ This works on both `public` and `private` Instagram account.
 
 <br/>
 
-## Before running this app (Prerequisites)
+## ⚙️ Before running this app (Prerequisites)
 
 1. Install [python 3](https://www.python.org/downloads/).
 2. Get [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed in your machine, **only** if you would like to run the app using them.
@@ -16,7 +16,7 @@ This works on both `public` and `private` Instagram account.
 <br />
 <hr />
 
-## How to run using Python :
+## 🐍 How to run using Python :
 1. Clone this repository :<br />
 ```bash
 git clone https://github.com/kevinadhiguna/insta-profpic-downloader.git
@@ -47,7 +47,7 @@ python insta.py
 <br />
 <hr />
 
-## How to run using Docker :
+## 🐋 How to run using Docker :
 1. Clone this repository :<br />
 ```bash
 git clone https://github.com/kevinadhiguna/insta-profpic-downloader.git
@@ -82,7 +82,7 @@ docker run -it -v "$(pwd):/app" insta-profpic:latest
 <br />
 <hr />
 
-## How to run using docker-compose :
+## 🐳 How to run using docker-compose :
 1. Clone this repository :<br />
 ```bash
 git clone https://github.com/kevinadhiguna/insta-profpic-downloader.git
@@ -104,14 +104,14 @@ docker-compose run insta
 
 <br />
 
-### To-do list :
+### 📝 To-do list :
 - [ ] build(ci): Modify GitHub Workflows to build and push docker image to DockerHub
 
 Pull Requests are welcome 🙏
 
 <br />
 
-### Notes :
+### 🗒️ Notes :
 - **I am not responsible for any misuse of this tool**.
 - `download.py` is deprecated. Please use `insta.py` instead.
 
