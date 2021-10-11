@@ -13,8 +13,6 @@ This works on both `public` and `private` Instagram account.
 1. Install [python 3](https://www.python.org/downloads/).
 2. Get [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed in your machine, **only** if you would like to run the app using them.
 
-⚠️ However, currently I do not recommend running this app using docker and docker-compose.
-
 <br />
 <hr />
 
@@ -107,8 +105,6 @@ docker-compose run insta
 <br />
 
 ### To-do list :
-- [ ] docs: Add instructions on how to run using docker and docker-compose
-- [ ] build(docker) : Fix the docker-compose issue
 - [ ] build(ci): Modify GitHub Workflows to build and push docker image to DockerHub
 
 Pull Requests are welcome 🙏
