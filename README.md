@@ -32,6 +32,8 @@ pip install -r requirements.txt
 ```
 
 3. Run this program :<br />
+
+⚠️ `download.py` is deprecated. Please use `insta.py` instead
 ```bash
 python3 insta.py
 ```
@@ -113,7 +115,6 @@ Pull Requests are welcome 🙏
 
 ### 🗒️ Notes :
 - **I am not responsible for any misuse of this tool**.
-- `download.py` is deprecated. Please use `insta.py` instead.
 
 Thanks for visiting, have a nice day !
 
