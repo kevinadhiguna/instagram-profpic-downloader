@@ -102,6 +102,11 @@ Just a quick example : if you name it `insta-profpic` and gave `latest` as the t
 docker run -it -v "$(pwd):/app" insta-profpic:latest
 ```
 
+or if you want to remove the docker container after stopping it automatically, you can append `--rm` :
+```bash
+docker run -it --rm -v "$(pwd):/app" insta-profpic:latest
+```
+
 4. Put the username that you want to download the profile picture of.
 
 5. The profile picture is downloaded in the folder you cloned this tool!
